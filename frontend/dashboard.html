@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#164b43">
+  <title>Dashboard | HealthBridge AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/auth.js"></script>
+</head>
+<body data-protected="true">
+  <header class="site-header app-header">
+    <a class="brand" href="dashboard.html"><span class="brand-mark" aria-hidden="true">+</span><span>HealthBridge <strong>AI</strong></span></a>
+    <nav class="main-nav app-nav" aria-label="Main navigation">
+      <a class="active" href="dashboard.html">Dashboard</a><a href="chat.html">Symptoms</a><a href="report-analysis.html">Reports</a><a href="diseases.html">Diseases</a><a href="medical-terms.html">Medical Terms</a><span class="nav-user" data-user-name>User</span><button class="button button-quiet button-small" type="button" data-logout>Logout</button>
+    </nav>
+  </header>
+  <main class="page-width app-main">
+    <section class="welcome-row">
+      <div><p class="eyebrow">AI-assisted health understanding</p><h1>Welcome to HealthBridge AI</h1><p class="welcome-subtitle">Understand your health information with AI-assisted symptom analysis and medical report insights.</p></div>
+      <div class="date-stamp"><span class="date-stamp-mark" aria-hidden="true">✳</span><span>Health information<br>with context and care</span></div>
+    </section>
+    <section class="dashboard-tools" aria-label="Health information tools">
+      <a class="tool-card tool-card-featured" href="chat.html"><span class="tool-icon icon-mint" aria-hidden="true">✦</span><span class="tool-card-content"><strong>Symptom Analysis</strong><span>Describe symptoms and receive educational information about possible matching conditions, safety level, and guidance.</span></span><span class="tool-arrow" aria-hidden="true">&#8594;</span></a>
+      <a class="tool-card tool-card-featured" href="report-analysis.html"><span class="tool-icon icon-peach" aria-hidden="true">▧</span><span class="tool-card-content"><strong>Medical Reports</strong><span>Upload a readable report and review extracted laboratory values, reference ranges, and simple explanations.</span></span><span class="tool-arrow" aria-hidden="true">&#8594;</span></a>
+      <a class="tool-card" href="diseases.html"><span class="tool-icon icon-blue" aria-hidden="true">▤</span><span class="tool-card-content"><strong>Disease Knowledge</strong><span>Explore the HealthBridge AI disease knowledge base.</span></span><span class="tool-arrow" aria-hidden="true">&#8594;</span></a>
+      <a class="tool-card" href="medical-terms.html"><span class="tool-icon icon-yellow" aria-hidden="true">Aa</span><span class="tool-card-content"><strong>Medical Terms</strong><span>Search common medical terminology and view simple explanations.</span></span><span class="tool-arrow" aria-hidden="true">&#8594;</span></a>
+    </section>
+    <aside class="inline-disclaimer"><span class="inline-disclaimer-mark" aria-hidden="true">!</span><p>HealthBridge AI provides informational assistance and does not provide a confirmed medical diagnosis. Symptom matching uses a synthetic/demo dataset and is not clinical evidence.</p></aside>
+  </main>
+  <footer class="site-footer page-width"><span>HealthBridge AI</span><span>Educational assistance only · Not a diagnostic service</span></footer>
+</body>
+</html>

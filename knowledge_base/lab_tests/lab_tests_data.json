@@ -1,0 +1,112 @@
+[
+  {
+    "id": "cbc",
+    "name": "Complete Blood Count (CBC)",
+    "what_is_it": "A comprehensive automated laboratory blood panel that evaluates the primary cellular components of blood.",
+    "why_is_it_performed": "To evaluate overall health, detect infections, diagnose anemia, assess clotting ability, and monitor ongoing treatments.",
+    "what_does_it_measure": "Red blood cells (RBC), white blood cells (WBC), hemoglobin, hematocrit, and platelet counts.",
+    "what_does_result_represent": "Numbers and proportions of circulating blood cells compared to healthy reference intervals.",
+    "important_limitations": "Does not identify specific causes of illness on its own; abnormal counts require clinical context, history, and examination.",
+    "source": "American Association for Clinical Chemistry (AACC) / MedlinePlus"
+  },
+  {
+    "id": "hba1c",
+    "name": "Glycated Hemoglobin (HbA1c)",
+    "what_is_it": "A blood test measuring the percentage of hemoglobin bound to glucose over red blood cell lifespan.",
+    "why_is_it_performed": "To screen for, diagnose, and monitor long-term control of diabetes and prediabetes.",
+    "what_does_it_measure": "Average blood sugar control over the past 2 to 3 months.",
+    "what_does_result_represent": "Values below 5.7% are normal; 5.7% to 6.4% indicate prediabetes; 6.5% or higher on two separate occasions indicates diabetes according to ADA criteria.",
+    "important_limitations": "Conditions altering RBC turnover (like hemolytic anemia, recent blood transfusion, hemoglobin variants) can artificially skew values.",
+    "source": "American Diabetes Association (ADA) Standards of Care"
+  },
+  {
+    "id": "blood-glucose",
+    "name": "Fasting Blood Glucose",
+    "what_is_it": "A blood test measuring circulating glucose levels after an overnight fast of at least 8 hours.",
+    "why_is_it_performed": "To detect hyperglycemia, hypoglycemia, and assess acute glucose regulation.",
+    "what_does_it_measure": "Concentration of free glucose circulating in venous plasma (mg/dL or mmol/L).",
+    "what_does_result_represent": "Normal fasting level is typically 70-99 mg/dL; 100-125 mg/dL indicates impaired fasting glucose; 126 mg/dL or higher suggests diabetes.",
+    "important_limitations": "Represents glucose at a single moment in time; influenced by acute stress, medications, recent food intake, or infection.",
+    "source": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)"
+  },
+  {
+    "id": "lipid-profile",
+    "name": "Lipid Profile Panel",
+    "what_is_it": "A panel of blood tests that measures specific fat molecules circulating in the bloodstream.",
+    "why_is_it_performed": "To assess cardiovascular risk, screen for hyperlipidemia, and guide preventative cardiovascular therapies.",
+    "what_does_it_measure": "Total cholesterol, High-Density Lipoprotein (HDL), Low-Density Lipoprotein (LDL), and Triglycerides.",
+    "what_does_result_represent": "Higher LDL is associated with increased plaque risk; higher HDL provides protective cardiovascular clearance.",
+    "important_limitations": "Individual cardiovascular risk depends on multiple factors including age, smoking, blood pressure, and diabetes, not just isolated numbers.",
+    "source": "American Heart Association (AHA) Guidelines"
+  },
+  {
+    "id": "crp",
+    "name": "C-Reactive Protein (CRP)",
+    "what_is_it": "A blood test measuring an acute-phase reactant protein synthesized rapidly by the liver.",
+    "why_is_it_performed": "To detect and monitor active inflammation, acute bacterial infections, tissue injury, or autoimmune flare-ups.",
+    "what_does_it_measure": "Concentration of CRP in the serum (mg/L).",
+    "what_does_result_represent": "Elevations signal presence of systemic inflammation somewhere in the body.",
+    "important_limitations": "Non-specific; elevated CRP indicates inflammation is present but does not pinpoint the exact location or underlying cause.",
+    "source": "Mayo Clinic Laboratories"
+  },
+  {
+    "id": "esr",
+    "name": "Erythrocyte Sedimentation Rate (ESR)",
+    "what_is_it": "A test measuring the rate at which red blood cells settle to the bottom of a vertical tube over one hour.",
+    "why_is_it_performed": "To help detect non-specific systemic inflammation associated with infections, malignancies, or autoimmune diseases.",
+    "what_does_it_measure": "Millimeters of cleared plasma settled in one hour (mm/hr).",
+    "what_does_result_represent": "Higher sedimentation rates correlate with increased inflammatory proteins in plasma.",
+    "important_limitations": "A non-specific marker influenced by age, gender, pregnancy, and anemia; cannot diagnose a specific disease alone.",
+    "source": "National Institutes of Health"
+  },
+  {
+    "id": "lft",
+    "name": "Liver Function Tests (LFT Panel)",
+    "what_is_it": "A group of biochemical blood tests measuring liver enzymes, proteins, and bilirubin.",
+    "why_is_it_performed": "To screen for liver damage, monitor hepatitis or medication toxicity, and evaluate jaundice or abdominal symptoms.",
+    "what_does_it_measure": "ALT, AST, Alkaline Phosphatase (ALP), Total Bilirubin, Direct Bilirubin, Albumin, and Total Protein.",
+    "what_does_result_represent": "Integrity of hepatocyte membranes, biliary excretion efficiency, and liver synthetic capacity.",
+    "important_limitations": "Elevations do not always mean permanent liver damage; temporary elevations frequently occur with mild viral infections or medications.",
+    "source": "American Liver Foundation"
+  },
+  {
+    "id": "kft",
+    "name": "Kidney Function Tests (KFT Panel)",
+    "what_is_it": "A panel of serum blood and electrolyte tests evaluating how effectively the kidneys filter metabolic waste.",
+    "why_is_it_performed": "To evaluate renal filtration, screen for acute or chronic kidney disease, and monitor medication clearance.",
+    "what_does_it_measure": "Serum Creatinine, Blood Urea Nitrogen (BUN) / Urea, and estimated Glomerular Filtration Rate (eGFR).",
+    "what_does_result_represent": "Higher creatinine and urea levels with reduced eGFR indicate decreased renal filtration capacity.",
+    "important_limitations": "Serum creatinine can vary with muscle mass, dehydration, high-protein diet, and specific medications without true kidney injury.",
+    "source": "National Kidney Foundation"
+  },
+  {
+    "id": "creatinine",
+    "name": "Serum Creatinine",
+    "what_is_it": "Measurement of a normal metabolic byproduct of muscle creatine breakdown.",
+    "why_is_it_performed": "Primary laboratory indicator for estimating kidney filtration capacity.",
+    "what_does_it_measure": "Concentration of creatinine in milligrams per deciliter (mg/dL).",
+    "what_does_result_represent": "Healthy kidneys maintain creatinine within an expected reference range by constant excretion.",
+    "important_limitations": "Must be evaluated alongside age, sex, and weight to calculate an accurate estimated glomerular filtration rate (eGFR).",
+    "source": "National Kidney Disease Education Program (NKDEP)"
+  },
+  {
+    "id": "urea",
+    "name": "Urea / Blood Urea Nitrogen (BUN)",
+    "what_is_it": "Measurement of nitrogenous waste derived from protein digestion in the liver.",
+    "why_is_it_performed": "To evaluate kidney function, hydration status, and protein metabolism.",
+    "what_does_it_measure": "Amount of urea or urea nitrogen circulating in serum (mg/dL).",
+    "what_does_result_represent": "High levels may reflect reduced renal excretion, dehydration, gastrointestinal bleeding, or very high protein intake.",
+    "important_limitations": "Heavily influenced by hydration and dietary protein; less specific for isolated renal injury than creatinine.",
+    "source": "American Association of Kidney Patients"
+  },
+  {
+    "id": "bilirubin",
+    "name": "Total & Direct Bilirubin",
+    "what_is_it": "Measurement of yellow pigment resulting from normal breakdown of red blood cell heme.",
+    "why_is_it_performed": "To diagnose jaundice, liver diseases, biliary obstruction, or excessive red cell breakdown (hemolysis).",
+    "what_does_it_measure": "Total bilirubin and conjugated (direct) bilirubin levels in serum (mg/dL).",
+    "what_does_result_represent": "Elevated bilirubin causes visible yellow discoloration of sclera and skin (jaundice).",
+    "important_limitations": "Does not determine cause alone; fractionating into direct vs indirect is required to distinguish hemolysis from liver or biliary obstruction.",
+    "source": "MedlinePlus / NIH"
+  }
+]

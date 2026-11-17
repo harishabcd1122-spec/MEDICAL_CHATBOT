@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#164b43">
+  <title>Create account | HealthBridge AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/auth.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">+</span><span>HealthBridge <strong>AI</strong></span></a>
+    <nav class="main-nav" aria-label="Account navigation"><a class="text-link" href="index.html">Home</a><span class="nav-divider" aria-hidden="true"></span><span class="nav-muted">Already registered?</span><a class="button button-outline button-small" href="login.html">Login</a></nav>
+  </header>
+  <main class="auth-shell auth-shell-register">
+    <section class="auth-aside">
+      <p class="eyebrow eyebrow-light">Start with understanding</p>
+      <h1>A more informed health conversation starts here.</h1>
+      <p>Create an account to use HealthBridge AI's educational tools. This prototype does not provide medical diagnosis.</p>
+      <div class="auth-aside-foot"><span class="aside-symbol" aria-hidden="true">✳</span><span>Simple explanations · Safety-aware guidance</span></div>
+    </section>
+    <section class="auth-panel" aria-labelledby="register-title">
+      <div class="auth-panel-heading"><p class="eyebrow">Join HealthBridge</p><h2 id="register-title">Create your account</h2><p>All fields are required.</p></div>
+      <div id="register-message" class="form-message" role="alert" aria-live="polite" hidden></div>
+      <form id="register-form" class="form-stack" novalidate>
+        <label for="register-name">Name</label>
+        <input id="register-name" name="name" type="text" autocomplete="name" required minlength="2" maxlength="100" placeholder="Your name">
+        <label for="register-email">Email address</label>
+        <input id="register-email" name="email" type="email" autocomplete="email" required placeholder="you@example.com">
+        <div class="form-grid-two">
+          <div><label for="register-password">Password</label><input id="register-password" name="password" type="password" autocomplete="new-password" required minlength="6" maxlength="128" placeholder="At least 6 characters"></div>
+          <div><label for="register-confirm">Confirm password</label><input id="register-confirm" name="confirm_password" type="password" autocomplete="new-password" required minlength="6" maxlength="128" placeholder="Repeat password"></div>
+        </div>
+        <button class="button button-primary button-full" type="submit"><span>Create account</span><span aria-hidden="true">&#8594;</span></button>
+      </form>
+      <p class="form-footnote">Registration creates your account, then returns you to sign in. Passwords are never stored in browser storage.</p>
+    </section>
+  </main>
+  <footer class="site-footer page-width"><a href="index.html">HealthBridge AI</a><span>General health information only</span></footer>
+</body>
+</html>

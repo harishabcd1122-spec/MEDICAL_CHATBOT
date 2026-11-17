@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#164b43">
+  <title>Medical Report Analysis | HealthBridge AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/auth.js"></script>
+  <script defer src="js/report-analysis.js?v=2"></script>
+</head>
+<body data-protected="true">
+  <header class="site-header app-header">
+    <a class="brand" href="dashboard.html"><span class="brand-mark" aria-hidden="true">+</span><span>HealthBridge <strong>AI</strong></span></a>
+    <nav class="main-nav app-nav" aria-label="Main navigation">
+      <a href="dashboard.html">Dashboard</a><a href="chat.html">Symptoms</a><a class="active" href="report-analysis.html">Reports</a><a href="diseases.html">Diseases</a><a href="medical-terms.html">Medical Terms</a><span class="nav-user" data-user-name>User</span><button class="button button-quiet button-small" type="button" data-logout>Logout</button>
+    </nav>
+  </header>
+  <main class="page-width app-main report-page">
+    <div class="page-intro report-page-intro">
+      <p class="eyebrow">Private, account-linked report summaries</p>
+      <h1>Medical Report Analysis</h1>
+      <p>Review text that can be read from your report. Results and reference ranges are shown only when they are explicitly present in the document.</p>
+    </div>
+
+    <div class="report-layout">
+      <section class="report-upload-panel" aria-labelledby="upload-title">
+        <div class="report-panel-heading"><div><p class="eyebrow">Start with a document</p><h2 id="upload-title">Upload a medical report</h2></div><span class="private-mark" aria-label="Private to your account">⌑</span></div>
+        <div id="report-message" class="form-message" role="alert" aria-live="polite" hidden></div>
+        <form id="report-upload-form">
+          <input id="report-file" class="visually-hidden" type="file" accept=".pdf,.png,.jpg,.jpeg,application/pdf,image/png,image/jpeg">
+          <label id="report-drop-zone" class="report-drop-zone" for="report-file" tabindex="0" role="button" aria-label="Choose a PDF or image medical report">
+            <span class="dropzone-icon" aria-hidden="true">↥</span>
+            <strong>Choose a file or drop it here</strong>
+            <span>PDF, PNG, JPG, or JPEG · Up to 10 MB by default</span>
+          </label>
+          <div id="selected-file" class="selected-file" hidden><span aria-hidden="true">▧</span><span id="selected-file-name"></span><button id="clear-file" type="button" class="icon-button" aria-label="Remove selected file">&#215;</button></div>
+          <button id="upload-report-button" class="button button-primary button-full" type="submit" disabled><span>Upload and analyze</span><span aria-hidden="true">&#8594;</span></button>
+        </form>
+        <div id="report-progress" class="report-progress" role="status" aria-live="polite" hidden><span class="loading-spinner" aria-hidden="true"></span><div><strong id="report-progress-title">Uploading report...</strong><span id="report-progress-detail">Your file is processed temporarily.</span></div></div>
+        <div class="report-handling-note"><strong>Temporary processing</strong><p>Uploaded bytes and extracted raw text are not retained. Only a structured summary and values are saved to your account so you can review or delete them later.</p></div>
+        <div class="report-limit-note"><strong>Scanned reports</strong><p>Local OCR is unavailable in this installation. Image files and scanned PDFs will return a clear unreadable-document message; no text will be guessed.</p></div>
+      </section>
+
+      <aside class="report-safety-rail">
+        <p class="eyebrow">What this does</p><h2>Extract, don’t infer.</h2>
+        <p>Known test labels and values are matched from readable document text. A result is compared only with a range explicitly provided in that report.</p>
+        <div class="rail-rule"></div>
+        <div class="rail-point"><span class="rail-point-icon" aria-hidden="true">1</span><p><strong>No invented ranges</strong><br>Missing ranges stay marked as missing.</p></div>
+        <div class="rail-point"><span class="rail-point-icon" aria-hidden="true">2</span><p><strong>No diagnosis</strong><br>Observations describe only the extracted report content.</p></div>
+      </aside>
+    </div>
+
+    <section id="report-result" class="report-result" aria-live="polite" hidden>
+      <div class="report-result-header"><div><p class="eyebrow">Structured extraction</p><h2 id="result-filename">Report summary</h2><p id="result-document-meta" class="result-document-meta"></p></div><span class="result-status" id="result-status">Completed</span></div>
+      <p id="result-summary" class="report-summary-copy"></p>
+      <section class="report-result-section"><div class="report-result-section-heading"><div><p class="result-label">Recognized test labels</p><h3>Lab results</h3></div></div><div id="report-lab-results" class="report-table-wrap"></div></section>
+      <section class="report-result-section"><div class="report-result-section-heading"><div><p class="result-label">Knowledge-base matches</p><h3>Medical terms</h3></div></div><div id="report-medical-terms" class="report-term-list"></div></section>
+      <section class="report-result-section"><div class="report-result-section-heading"><div><p class="result-label">Neutral observations</p><h3>Important findings</h3></div></div><ul id="report-observations" class="report-observations"></ul></section>
+      <section class="report-result-section"><div class="report-result-section-heading"><div><p class="result-label">For your appointment</p><h3>Questions to ask a healthcare professional</h3></div></div><ul id="report-questions" class="report-observations"></ul></section>
+      <p id="report-disclaimer" class="result-disclaimer"></p>
+    </section>
+
+    <section class="report-history-section" aria-labelledby="history-title">
+      <div class="workflow-heading"><p class="eyebrow">Your account</p><h2 id="history-title">Saved report summaries</h2></div>
+      <p id="report-history-message" class="inline-status" role="status" aria-live="polite" hidden></p>
+      <div id="report-history" class="report-history-list"></div>
+    </section>
+  </main>
+  <footer class="site-footer page-width"><span>HealthBridge AI</span><span>Report summaries are educational, not diagnostic</span></footer>
+</body>
+</html>

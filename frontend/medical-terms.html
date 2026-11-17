@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#164b43">
+  <title>Medical Terms Explained | HealthBridge AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/auth.js"></script>
+  <script defer src="js/medical-terms.js"></script>
+</head>
+<body data-protected="true">
+  <header class="site-header app-header">
+    <a class="brand" href="dashboard.html"><span class="brand-mark" aria-hidden="true">+</span><span>HealthBridge <strong>AI</strong></span></a>
+    <nav class="main-nav app-nav" aria-label="Main navigation"><a href="dashboard.html">Dashboard</a><a href="chat.html">Symptoms</a><a href="report-analysis.html">Reports</a><a href="diseases.html">Diseases</a><a class="active" href="medical-terms.html">Medical Terms</a><span class="nav-user" data-user-name>User</span><button class="button button-quiet button-small" type="button" data-logout>Logout</button></nav>
+  </header>
+  <main class="page-width app-main library-page terms-page">
+    <div class="page-intro"><p class="eyebrow">Plain-language reference</p><h1>Medical Terms Explained</h1><p>Search medical terminology and explore the explanations available in the knowledge base.</p></div>
+    <form id="term-search-form" class="library-search"><label class="visually-hidden" for="term-search">Search medical terms</label><span class="search-symbol" aria-hidden="true">⌕</span><input id="term-search" type="search" placeholder="Search a term, for example HbA1c" autocomplete="off"><button class="button button-primary" type="submit">Search</button></form>
+    <p id="term-message" class="inline-status" role="status" aria-live="polite" hidden></p>
+    <div class="library-layout"><nav class="library-results" aria-label="Medical term results"><p id="term-result-count" class="result-count"></p><div id="term-list" class="result-list"></div></nav><article id="term-detail" class="detail-panel" aria-live="polite"><div class="empty-detail"><span aria-hidden="true">Aa</span><p>Select a term to explore its explanations.</p></div></article></div>
+    <aside class="library-disclaimer">Explanations are for general education. Ask a healthcare professional what a term means for your care.</aside>
+  </main>
+  <footer class="site-footer page-width"><span>HealthBridge AI</span><span>Educational assistance only · Not a diagnostic service</span></footer>
+</body>
+</html>

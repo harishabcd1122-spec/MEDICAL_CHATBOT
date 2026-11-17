@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#164b43">
+  <title>Analyze Symptoms | HealthBridge AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/auth.js"></script>
+  <script defer src="js/chat.js"></script>
+</head>
+<body data-protected="true">
+  <header class="site-header app-header">
+    <a class="brand" href="dashboard.html"><span class="brand-mark" aria-hidden="true">+</span><span>HealthBridge <strong>AI</strong></span></a>
+    <nav class="main-nav app-nav" aria-label="Main navigation"><a href="dashboard.html">Dashboard</a><a class="active" href="chat.html">Symptoms</a><a href="report-analysis.html">Reports</a><a href="diseases.html">Diseases</a><a href="medical-terms.html">Medical Terms</a><span class="nav-user" data-user-name>User</span><button class="button button-quiet button-small" type="button" data-logout>Logout</button></nav>
+  </header>
+  <main class="page-width app-main chat-page">
+    <div class="page-intro chat-intro"><div><p class="eyebrow">A guided information tool</p><h1>AI Symptom Understanding</h1><p>Describe what you are experiencing. The prototype will look for recognized symptoms and return informational matches with safety guidance.</p></div><span class="prototype-tag"><span aria-hidden="true">●</span> Synthetic/demo model</span></div>
+    <div class="chat-layout">
+      <section class="symptom-composer" aria-labelledby="symptom-prompt-label">
+        <div class="composer-heading"><span class="composer-icon" aria-hidden="true">✦</span><div><span class="composer-kicker">Start with your words</span><h2 id="symptom-prompt-label">What would you like to understand?</h2></div></div>
+        <form id="symptom-form">
+          <label class="visually-hidden" for="symptoms-input">Describe your symptoms</label>
+          <textarea id="symptoms-input" name="symptoms" minlength="2" maxlength="2000" required placeholder="Describe your symptoms..."></textarea>
+          <div class="composer-tools"><label class="language-field" for="symptom-language">Language<select id="symptom-language" name="language"><option value="en">English</option><option value="ta">தமிழ்</option><option value="hi">हिन्दी</option></select></label><span id="character-count" class="character-count">0 / 2000</span></div>
+          <div class="composer-actions"><p>For severe or rapidly worsening symptoms, seek immediate professional care.</p><button id="analyze-button" class="button button-primary" type="submit"><span>Analyze Symptoms</span><span aria-hidden="true">&#8594;</span></button></div>
+        </form>
+        <div id="chat-message" class="form-message" role="status" aria-live="polite" hidden></div>
+        <div id="analysis-loading" class="loading-row" role="status" aria-live="polite" hidden><span class="loading-spinner" aria-hidden="true"></span><span>Analyzing the information...</span></div>
+        <div class="example-prompts"><span class="example-label">Try an example</span><div class="example-buttons"><button type="button" class="example-button" data-example="I have fever, headache and body pain.">Fever, headache and body pain</button><button type="button" class="example-button" data-example="I have cough and difficulty breathing.">Cough and difficulty breathing</button><button type="button" class="example-button" data-example="காய்ச்சல் மற்றும் தலைவலி இருக்கிறது.">Tamil example</button></div></div>
+      </section>
+      <aside class="safety-rail">
+        <p class="eyebrow">Before you continue</p><h2>Information, not diagnosis.</h2>
+        <p>Symptom matches are based on a limited synthetic/demo dataset. They cannot confirm or rule out a health condition.</p>
+        <div class="rail-rule"></div>
+        <div class="rail-point"><span class="rail-point-icon" aria-hidden="true">1</span><p><strong>Safety first</strong><br>Emergency signals are screened before model matching.</p></div>
+        <div class="rail-point"><span class="rail-point-icon" aria-hidden="true">2</span><p><strong>Use professional care</strong><br>Consult a qualified healthcare professional for health concerns.</p></div>
+      </aside>
+    </div>
+
+    <section id="analysis-result" class="analysis-result" aria-live="polite" aria-atomic="false" hidden>
+      <div class="result-topline"><div><p class="eyebrow">Your information</p><h2 id="result-heading">Symptom analysis</h2></div><span id="result-status" class="result-status"></span></div>
+      <div id="emergency-result" class="emergency-result" hidden>
+        <div class="emergency-banner"><span class="emergency-symbol" aria-hidden="true">!</span><div><p class="emergency-overline">Safety alert</p><h3>URGENT MEDICAL ATTENTION MAY BE REQUIRED</h3></div></div>
+        <p id="emergency-copy" class="emergency-copy"></p>
+        <p class="emergency-action">Please contact local emergency services or seek immediate professional care. Do not wait for an online response.</p>
+      </div>
+      <div id="normal-result" class="normal-result" hidden>
+        <div class="result-summary-grid">
+          <div class="result-block"><p class="result-label">Recognized symptoms</p><div id="recognized-symptoms" class="tag-list"></div></div>
+          <div id="urgency-block" class="result-block urgency-block"><p class="result-label">Urgency/Safety Level</p><div id="urgency-value" class="urgency-badge"></div><p id="urgency-explanation" class="result-supporting"></p><p class="level-note">Urgency/Safety Level refers to safety and triage indicators. It does not represent the probability of having a disease.</p></div>
+        </div>
+        <div id="condition-section" class="condition-section"><div class="section-heading-row compact-heading"><div><p class="result-label">Prototype model matches</p><h3>Possible Conditions</h3></div></div><div id="condition-list" class="condition-list"></div></div>
+        <p id="analysis-explanation" class="analysis-explanation"></p>
+        <div id="doctor-questions-section" class="doctor-questions" hidden><h3>Questions to discuss with a healthcare professional</h3><ul id="doctor-questions"></ul></div>
+      </div>
+      <div id="insufficient-result" class="insufficient-result" hidden><span class="insufficient-mark" aria-hidden="true">?</span><div><h3>More information may help</h3><p id="insufficient-copy"></p></div></div>
+      <p id="score-note" class="score-note" hidden></p>
+      <p id="result-disclaimer" class="result-disclaimer"></p>
+    </section>
+  </main>
+  <footer class="site-footer page-width"><span>HealthBridge AI</span><span>Educational assistance only · Not a diagnostic service</span></footer>
+</body>
+</html>

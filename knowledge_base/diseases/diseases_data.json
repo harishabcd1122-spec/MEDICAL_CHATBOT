@@ -1,0 +1,422 @@
+[
+  {
+    "id": "common-cold",
+    "name": "Common cold",
+    "simple_definition": "A mild, contagious viral infection affecting the nose and upper throat.",
+    "medical_definition": "An acute, self-limiting viral upper respiratory tract infection, most frequently caused by rhinoviruses.",
+    "common_symptoms": ["Runny nose", "Nasal congestion", "Sneezing", "Mild cough", "Sore throat", "Low-grade fever"],
+    "possible_causes": ["Rhinovirus", "Coronavirus (seasonal)", "Respiratory syncytial virus (RSV)"],
+    "risk_factors": ["Close contact with infected individuals", "Weakened immune system", "Cold weather exposure"],
+    "general_prevention": ["Frequent handwashing", "Avoiding touching face with unwashed hands", "Adequate rest"],
+    "common_diagnostic_tests": ["Clinical assessment based on signs and symptoms"],
+    "general_treatment": ["Rest", "Adequate hydration", "Over-the-counter saline nasal sprays and supportive care as advised by a doctor"],
+    "warning_signs": ["Fever above 102°F persisting over 3 days", "Severe shortness of breath", "Inability to keep liquids down"],
+    "when_to_seek_doctor": "Consult a healthcare provider if symptoms last more than 10-14 days or worsen significantly.",
+    "faqs": [
+      {"q": "Do antibiotics cure the common cold?", "a": "No. The common cold is caused by viruses, and antibiotics only treat bacterial infections."}
+    ],
+    "related_medical_terms": ["Rhinovirus", "Upper Respiratory Tract", "Acute", "Symptomatic treatment"],
+    "source": "World Health Organization (WHO) & CDC Guidelines",
+    "source_url": "https://www.cdc.gov/common-cold/index.html",
+    "last_updated": "2026-01-15"
+  },
+  {
+    "id": "influenza",
+    "name": "Influenza",
+    "simple_definition": "A common contagious respiratory illness caused by flu viruses that can cause sudden fever, chills, and body aches.",
+    "medical_definition": "An acute viral infection of the respiratory tract caused by influenza viruses A, B, or C, characterized by systemic and respiratory symptoms.",
+    "common_symptoms": ["High fever", "Chills", "Severe body pain", "Headache", "Dry cough", "Extreme fatigue"],
+    "possible_causes": ["Influenza A virus", "Influenza B virus"],
+    "risk_factors": ["Young children", "Adults 65 and older", "Chronic respiratory or cardiac conditions"],
+    "general_prevention": ["Annual seasonal influenza vaccination", "Good hand hygiene", "Respiratory etiquette"],
+    "common_diagnostic_tests": ["Rapid influenza diagnostic test (RIDT)", "RT-PCR respiratory viral panel"],
+    "general_treatment": ["Rest, fluids, and clinical evaluation for prescription antiviral medications if initiated early"],
+    "warning_signs": ["Difficulty breathing or shortness of breath", "Persistent chest pressure", "Severe dizziness or confusion"],
+    "when_to_seek_doctor": "Prompt medical attention is advised for high-risk individuals or anyone experiencing respiratory distress.",
+    "faqs": [
+      {"q": "How is influenza different from a common cold?", "a": "Flu symptoms typically arrive abruptly and are more severe, notably high fever and profound body ache."}
+    ],
+    "related_medical_terms": ["Influenza", "Antiviral", "SpO2", "Vital signs"],
+    "source": "CDC Flu Division / WHO Global Influenza Programme",
+    "source_url": "https://www.cdc.gov/flu/",
+    "last_updated": "2026-01-15"
+  },
+  {
+    "id": "dengue",
+    "name": "Dengue",
+    "simple_definition": "A mosquito-borne viral infection causing high fever, severe headache, behind-the-eye pain, and severe joint pain.",
+    "medical_definition": "An acute arboviral illness transmitted by Aedes mosquitoes, caused by the dengue virus (DENV 1-4).",
+    "common_symptoms": ["Sudden high fever", "Severe headache", "Pain behind the eyes", "Severe joint and muscle pain", "Skin rash", "Nausea"],
+    "possible_causes": ["Dengue virus transmission via Aedes aegypti / albopictus mosquito bite"],
+    "risk_factors": ["Residence or travel in tropical and subtropical endemic regions", "Prior infection with another dengue serotype"],
+    "general_prevention": ["Mosquito bite prevention", "Eliminating standing water where mosquitoes breed", "Protective clothing"],
+    "common_diagnostic_tests": ["Dengue NS1 antigen test", "Dengue IgM/IgG antibody test", "Complete Blood Count (CBC - Platelet count monitoring)"],
+    "general_treatment": ["Close medical supervision", "Careful oral rehydration", "Monitoring platelet count", "Avoiding NSAIDs like aspirin/ibuprofen due to bleeding risk"],
+    "warning_signs": ["Severe abdominal pain", "Persistent vomiting", "Mucosal bleeding (gums or nose)", "Rapid platelet drop", "Lethargy"],
+    "when_to_seek_doctor": "Immediate emergency medical attention is essential if warning signs or bleeding occur.",
+    "faqs": [
+      {"q": "Why is platelet count monitored in dengue?", "a": "Dengue can cause transient suppression of bone marrow and destruction of platelets, increasing bleeding risks."}
+    ],
+    "related_medical_terms": ["Platelets", "CBC", "Hematocrit", "NS1 Antigen"],
+    "source": "World Health Organization (WHO) Dengue Guidelines",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+    "last_updated": "2026-02-01"
+  },
+  {
+    "id": "malaria",
+    "name": "Malaria",
+    "simple_definition": "A serious, mosquito-borne parasitic disease characterized by periodic cycles of shaking chills, high fever, and sweating.",
+    "medical_definition": "A protozoan parasitic infection transmitted by female Anopheles mosquitoes, caused by Plasmodium species (P. falciparum, P. vivax, etc.).",
+    "common_symptoms": ["Cyclic high fever", "Shaking chills (rigors)", "Profuse sweating", "Headache", "Nausea", "Fatigue"],
+    "possible_causes": ["Plasmodium parasite transmitted by Anopheles mosquito bite"],
+    "risk_factors": ["Travel or residence in malaria-endemic areas", "Lack of mosquito nets or prophylaxis"],
+    "general_prevention": ["Insecticide-treated bed nets", "Mosquito repellents", "Prophylactic medication during endemic travel"],
+    "common_diagnostic_tests": ["Peripheral blood smear microscopy", "Rapid diagnostic test (RDT) for malaria antigens"],
+    "general_treatment": ["Prescription antimalarial therapy (e.g. Artemisinin-based combination therapies) under medical care"],
+    "warning_signs": ["Impaired consciousness", "Extreme weakness", "Jaundice", "Dark urine", "Severe breathing difficulty"],
+    "when_to_seek_doctor": "Seek emergency medical care immediately upon suspecting malaria to prevent severe complications.",
+    "faqs": [
+      {"q": "Is malaria preventable?", "a": "Yes, through vector control, bed nets, and medically prescribed chemoprophylaxis."}
+    ],
+    "related_medical_terms": ["RBC", "Anemia", "Bilirubin", "Parasite"],
+    "source": "World Health Organization (WHO) Malaria Programme",
+    "source_url": "https://www.who.int/teams/global-malaria-programme",
+    "last_updated": "2026-01-20"
+  },
+  {
+    "id": "typhoid",
+    "name": "Typhoid",
+    "simple_definition": "A bacterial infection spread through contaminated food and water, causing prolonged step-ladder fever and stomach pain.",
+    "medical_definition": "An enteric systemic infectious disease caused by Salmonella enterica serotype Typhi.",
+    "common_symptoms": ["Prolonged step-ladder fever", "Headache", "Abdominal discomfort", "Loss of appetite", "Constipation or diarrhea", "Weakness"],
+    "possible_causes": ["Salmonella Typhi ingestion from contaminated water or food"],
+    "risk_factors": ["Poor sanitation", "Inadequate drinking water treatment", "Food handled without proper hygiene"],
+    "general_prevention": ["Typhoid vaccination", "Drinking safe boiled/treated water", "Thorough hand hygiene"],
+    "common_diagnostic_tests": ["Blood culture", "Widal test", "Stool culture"],
+    "general_treatment": ["Appropriate prescription antibiotics determined by antimicrobial susceptibility testing, with fluids and rest"],
+    "warning_signs": ["Severe abdominal pain", "Intestinal bleeding", "High persistent fever unresponsive to initial care"],
+    "when_to_seek_doctor": "Medical consultation is required for timely antibiotic treatment and complication prevention.",
+    "faqs": [
+      {"q": "How does typhoid spread?", "a": "Through the fecal-oral route via contaminated food, raw vegetables, or unsafe drinking water."}
+    ],
+    "related_medical_terms": ["Antibiotic", "Infection", "WBC", "Blood culture"],
+    "source": "CDC Typhoid Fever Resources",
+    "source_url": "https://www.cdc.gov/typhoid-fever/",
+    "last_updated": "2026-01-10"
+  },
+  {
+    "id": "covid-19",
+    "name": "COVID-19",
+    "simple_definition": "A respiratory illness caused by the SARS-CoV-2 coronavirus that can range from mild cold-like symptoms to lung inflammation.",
+    "medical_definition": "An infectious disease caused by the novel severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2).",
+    "common_symptoms": ["Fever", "Dry cough", "Fatigue", "Loss of taste or smell", "Sore throat", "Shortness of breath"],
+    "possible_causes": ["SARS-CoV-2 viral transmission via respiratory droplets and aerosols"],
+    "risk_factors": ["Advanced age", "Underlying medical conditions (cardiovascular disease, diabetes, chronic lung disease)"],
+    "general_prevention": ["Vaccination and boosters", "Well-ventilated spaces", "Masks in high-transmission settings", "Hand hygiene"],
+    "common_diagnostic_tests": ["Rapid antigen test (RAT)", "Real-time RT-PCR test"],
+    "general_treatment": ["Supportive hydration, rest, clinical monitoring, and prescription antiviral therapies for high-risk patients"],
+    "warning_signs": ["Drop in oxygen saturation (SpO2 below 94%)", "Persistent chest pain or pressure", "Cyanosis (bluish lips or nails)"],
+    "when_to_seek_doctor": "Seek emergency medical care immediately for low oxygen saturation, severe shortness of breath, or confusion.",
+    "faqs": [
+      {"q": "What is the significance of pulse oximetry in COVID-19?", "a": "It non-invasively monitors oxygen saturation (SpO2) to detect early respiratory compromise."}
+    ],
+    "related_medical_terms": ["SpO2", "Oxygen saturation", "Pneumonia", "Antiviral"],
+    "source": "World Health Organization (WHO) COVID-19 Technical Guidance",
+    "source_url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019",
+    "last_updated": "2026-02-10"
+  },
+  {
+    "id": "migraine",
+    "name": "Migraine",
+    "simple_definition": "A neurological condition causing intense, pulsating headache attacks, often on one side of the head, with nausea and sensitivity to light.",
+    "medical_definition": "A primary neurological headache disorder characterized by recurrent attacks of moderate to severe pulsating, unilateral head pain.",
+    "common_symptoms": ["Throbbing, pulsating headache", "Nausea or vomiting", "Sensitivity to light (photophobia)", "Sensitivity to sound (phonophobia)", "Visual aura"],
+    "possible_causes": ["Complex neurovascular alterations and trigeminovascular activation"],
+    "risk_factors": ["Family history", "Hormonal fluctuations", "Stress", "Sleep disturbances", "Specific dietary triggers"],
+    "general_prevention": ["Identifying personal triggers", "Regular sleep and meal schedules", "Physician-guided preventive medication"],
+    "common_diagnostic_tests": ["Clinical evaluation by a neurologist or physician (imaging if atypical or red-flag features exist)"],
+    "general_treatment": ["Acute abortive therapies (e.g. triptans, specific analgesics) prescribed by a doctor; resting in a dark, quiet room"],
+    "warning_signs": ["Sudden thunderclap headache", "Headache with fever and neck stiffness", "Headache with motor weakness or speech difficulty"],
+    "when_to_seek_doctor": "Immediate emergency care is required for sudden, explosive headaches or associated focal neurological deficits.",
+    "faqs": [
+      {"q": "What is an aura in migraine?", "a": "A temporary neurological symptom, usually visual (flashing lights, zigzag patterns) preceding the headache."}
+    ],
+    "related_medical_terms": ["Analgesic", "Neurological", "Acute", "Chronic"],
+    "source": "American Migraine Foundation & National Institute of Neurological Disorders and Stroke (NINDS)",
+    "source_url": "https://www.ninds.nih.gov/health-information/disorders/migraine",
+    "last_updated": "2026-01-25"
+  },
+  {
+    "id": "asthma",
+    "name": "Asthma",
+    "simple_definition": "A chronic condition where airways narrow, swell, and produce extra mucus, making breathing difficult.",
+    "medical_definition": "A chronic inflammatory disorder of the airways characterized by variable and recurring symptoms, reversible airflow obstruction, and bronchospasm.",
+    "common_symptoms": ["Shortness of breath", "Wheezing (whistling sound when breathing)", "Chest tightness", "Chronic cough (especially at night)"],
+    "possible_causes": ["Airway hyperresponsiveness triggered by allergens, cold air, exercise, or respiratory infections"],
+    "risk_factors": ["Atopy/allergies", "Family history of asthma", "Exposure to environmental tobacco smoke or air pollution"],
+    "general_prevention": ["Avoiding known triggers (dust mites, pollen, smoke)", "Adhering to doctor-prescribed controller inhalers"],
+    "common_diagnostic_tests": ["Spirometry / Pulmonary function tests (PFT)", "Peak expiratory flow rate (PEFR)"],
+    "general_treatment": ["Inhaled corticosteroids (controller) and short-acting bronchodilators (rescue) under formal medical management"],
+    "warning_signs": ["Severe breathlessness speaking only in single words", "No relief from rescue inhaler", "Chest retractions"],
+    "when_to_seek_doctor": "Severe acute asthma exacerbations require immediate emergency medical care.",
+    "faqs": [
+      {"q": "Can asthma be cured?", "a": "While asthma is chronic, it can be effectively controlled with appropriate medical treatment and action plans."}
+    ],
+    "related_medical_terms": ["Bronchitis", "SpO2", "Respiratory rate", "Inhaler"],
+    "source": "Global Initiative for Asthma (GINA) Guidelines",
+    "source_url": "https://ginasthma.org/",
+    "last_updated": "2026-02-05"
+  },
+  {
+    "id": "pneumonia",
+    "name": "Pneumonia",
+    "simple_definition": "An infection that inflames the air sacs in one or both lungs, which may fill with fluid or pus.",
+    "medical_definition": "An acute lower respiratory infection causing inflammation of the lung parenchyma, typically involving the alveoli.",
+    "common_symptoms": ["High fever", "Chills", "Cough with green, yellow, or bloody mucus", "Shortness of breath", "Sharp chest pain that worsens with deep breathing", "Fatigue"],
+    "possible_causes": ["Streptococcus pneumoniae (bacterial)", "Respiratory viruses", "Atypical organisms"],
+    "risk_factors": ["Age under 2 or over 65", "Smoking", "Chronic lung or heart disease", "Compromised immunity"],
+    "general_prevention": ["Pneumococcal and influenza vaccines", "Smoking cessation", "Good hand hygiene"],
+    "common_diagnostic_tests": ["Chest X-ray", "Complete Blood Count (WBC count)", "Sputum examination", "Pulse oximetry"],
+    "general_treatment": ["Physician-prescribed targeted antibiotics or supportive viral therapies, oxygen therapy if indicated, and hydration"],
+    "warning_signs": ["Cyanosis (bluish lips or fingertips)", "Confusion or lethargy (especially in elderly)", "Oxygen saturation below 92%"],
+    "when_to_seek_doctor": "Pneumonia warrants prompt medical evaluation; respiratory distress requires emergency care.",
+    "faqs": [
+      {"q": "Is pneumonia contagious?", "a": "The underlying causative viruses or bacteria can spread from person to person through respiratory droplets."}
+    ],
+    "related_medical_terms": ["WBC", "CRP", "Oxygen saturation", "SpO2"],
+    "source": "American Thoracic Society (ATS) / Infectious Diseases Society of America (IDSA)",
+    "source_url": "https://www.thoracic.org/patients/patient-resources/resources/top-pneumonia-questions.pdf",
+    "last_updated": "2026-01-30"
+  },
+  {
+    "id": "diabetes",
+    "name": "Diabetes",
+    "simple_definition": "A chronic metabolic condition characterized by high levels of sugar (glucose) in the bloodstream.",
+    "medical_definition": "A group of metabolic disorders characterized by persistent hyperglycemia resulting from defects in insulin secretion, insulin action, or both.",
+    "common_symptoms": ["Frequent urination (polyuria)", "Excessive thirst (polydipsia)", "Unexplained weight loss", "Fatigue", "Slow-healing sores", "Blurred vision"],
+    "possible_causes": ["Autoimmune beta-cell destruction (Type 1)", "Insulin resistance with progressive secretory defect (Type 2)"],
+    "risk_factors": ["Overweight/obesity", "Physical inactivity", "Family history", "Age 45 or older", "History of gestational diabetes"],
+    "general_prevention": ["Nutritious balanced diet", "Regular physical activity (150 mins/week)", "Weight management"],
+    "common_diagnostic_tests": ["Fasting plasma glucose (FPG)", "Glycated hemoglobin (HbA1c)", "Oral glucose tolerance test (OGTT)"],
+    "general_treatment": ["Lifestyle modification, dietary planning, physician-prescribed oral hypoglycemic agents or insulin"],
+    "warning_signs": ["Extreme lethargy", "Fruity breath odor", "Deep rapid breathing (Kussmaul breathing)", "Confusion (signs of DKA)"],
+    "when_to_seek_doctor": "Routine ongoing physician management is required; immediate emergency care for symptoms of ketoacidosis or severe hypoglycemia.",
+    "faqs": [
+      {"q": "What does an HbA1c test show?", "a": "It reflects the average blood glucose level over the preceding 2 to 3 months."}
+    ],
+    "related_medical_terms": ["Glucose", "HbA1c", "Chronic", "Reference range"],
+    "source": "American Diabetes Association (ADA) Standards of Care",
+    "source_url": "https://diabetes.org/",
+    "last_updated": "2026-01-12"
+  },
+  {
+    "id": "hypertension",
+    "name": "Hypertension",
+    "simple_definition": "A condition in which the force of the blood against artery walls is consistently too high (high blood pressure).",
+    "medical_definition": "A chronic medical condition in which the systemic arterial blood pressure is persistently elevated (systolic >= 130 mmHg and/or diastolic >= 80 mmHg).",
+    "common_symptoms": ["Often asymptomatic ('silent killer')", "Morning headache", "Dizziness", "Shortness of breath", "Nosebleeds (in very high pressure)"],
+    "possible_causes": ["Primary (essential) hypertension (lifestyle and genetic factors)", "Secondary hypertension (renal, endocrine, or vascular disorders)"],
+    "risk_factors": ["High sodium intake", "Sedentary lifestyle", "Obesity", "Tobacco use", "Excessive alcohol", "Chronic stress"],
+    "general_prevention": ["DASH diet (low sodium, rich in fruits and vegetables)", "Regular aerobic exercise", "Limiting alcohol and avoiding tobacco"],
+    "common_diagnostic_tests": ["Repeated blood pressure readings", "Ambulatory blood pressure monitoring (ABPM)", "Kidney function tests and ECG"],
+    "general_treatment": ["Lifestyle modification and physician-prescribed antihypertensive medications (e.g. ACE inhibitors, ARBs, CCBs)"],
+    "warning_signs": ["Systolic BP > 180 mmHg or Diastolic > 120 mmHg with chest pain, vision changes, or shortness of breath (Hypertensive Crisis)"],
+    "when_to_seek_doctor": "Regular medical checks are essential; seek immediate emergency care for hypertensive crisis symptoms.",
+    "faqs": [
+      {"q": "Why is hypertension called a silent killer?", "a": "Because it often has no obvious symptoms until it causes serious damage such as heart attack or stroke."}
+    ],
+    "related_medical_terms": ["Blood pressure", "Hypertension", "ECG", "Arrhythmia"],
+    "source": "American Heart Association (AHA) / ACC Hypertension Guidelines",
+    "source_url": "https://www.heart.org/en/health-topics/high-blood-pressure",
+    "last_updated": "2026-01-18"
+  },
+  {
+    "id": "gastritis",
+    "name": "Gastritis",
+    "simple_definition": "Inflammation, irritation, or erosion of the protective lining of the stomach.",
+    "medical_definition": "Histologically confirmed inflammation of the gastric mucosa, which can be acute or chronic.",
+    "common_symptoms": ["Upper abdominal burning or gnawing pain", "Nausea", "Vomiting", "Fullness after eating", "Loss of appetite", "Belching"],
+    "possible_causes": ["Helicobacter pylori bacterial infection", "Regular use of NSAID pain relievers", "Excessive alcohol consumption", "Severe physiological stress"],
+    "risk_factors": ["Frequent painkiller usage", "Bacterial infection", "Older age", "Smoking and alcohol"],
+    "general_prevention": ["Avoiding overuse of NSAIDs", "Limiting alcohol and spicy/acidic foods", "Practicing safe food hygiene"],
+    "common_diagnostic_tests": ["H. pylori breath/stool test", "Upper endoscopy (EGD) with mucosal biopsy"],
+    "general_treatment": ["Antacids, proton pump inhibitors (PPIs), H2 blockers, and antibiotic regimens for H. pylori as prescribed by a physician"],
+    "warning_signs": ["Vomiting blood or coffee-ground material", "Black, tarry stools (melena)", "Unexplained severe weight loss"],
+    "when_to_seek_doctor": "Consult a doctor if stomach pain persists over a week; seek immediate emergency care for gastrointestinal bleeding.",
+    "faqs": [
+      {"q": "Can stress cause gastritis?", "a": "Severe physiological trauma or illness can cause acute stress gastritis, while mental stress can exacerbate gastric symptoms."}
+    ],
+    "related_medical_terms": ["Acid reflux", "Acute", "Chronic", "Lesion"],
+    "source": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
+    "source_url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gastritis",
+    "last_updated": "2026-02-01"
+  },
+  {
+    "id": "gerd",
+    "name": "GERD",
+    "simple_definition": "A digestive disorder where stomach acid repeatedly flows back up into the food pipe (esophagus), causing heartburn.",
+    "medical_definition": "Gastroesophageal reflux disease; a chronic digestive disease occurring when stomach acid or bile irritates the esophageal food pipe lining.",
+    "common_symptoms": ["Heartburn (burning sensation in chest after eating)", "Acid regurgitation / sour taste", "Difficulty swallowing (dysphagia)", "Chronic dry cough"],
+    "possible_causes": ["Transient lower esophageal sphincter (LES) relaxations", "Hiatal hernia", "Delayed gastric emptying"],
+    "risk_factors": ["Obesity", "Pregnancy", "Smoking", "Large meals late at night", "Fatty or fried foods"],
+    "general_prevention": ["Elevating the head of the bed during sleep", "Avoiding lying down within 3 hours of meals", "Maintaining a healthy weight"],
+    "common_diagnostic_tests": ["Clinical evaluation", "Upper gastrointestinal endoscopy", "Esophageal 24-hour pH monitoring"],
+    "general_treatment": ["Dietary modifications, physician-prescribed acid suppressants (PPIs, H2 receptor antagonists)"],
+    "warning_signs": ["Difficulty or pain when swallowing", "Unexplained weight loss", "Persistent vomiting or choking sensation at night"],
+    "when_to_seek_doctor": "Consult a healthcare provider for frequent heartburn (more than twice a week) or difficulty swallowing.",
+    "faqs": [
+      {"q": "Can GERD feel like a heart attack?", "a": "Yes, GERD chest discomfort can closely mimic cardiac pain; new or unexplained chest pain should always be medically evaluated immediately."}
+    ],
+    "related_medical_terms": ["Heartburn", "Acid reflux", "Chronic", "Follow-up"],
+    "source": "American College of Gastroenterology (ACG) Clinical Guidelines",
+    "source_url": "https://gi.org/topics/acid-reflux/",
+    "last_updated": "2026-01-22"
+  },
+  {
+    "id": "uti",
+    "name": "UTI",
+    "simple_definition": "An infection in any part of the urinary system, commonly affecting the bladder and urethra.",
+    "medical_definition": "Urinary Tract Infection; an infection involving the kidneys, ureters, bladder, or urethra, most commonly caused by uropathogenic Escherichia coli.",
+    "common_symptoms": ["Burning sensation during urination (dysuria)", "Frequent urge to urinate", "Cloudy or strong-smelling urine", "Pelvic pressure or discomfort", "Low-grade fever"],
+    "possible_causes": ["Bacterial colonization of the urinary tract (predominantly E. coli)"],
+    "risk_factors": ["Female anatomy (shorter urethra)", "Sexual activity", "Catheter use", "Urinary retention or kidney stones"],
+    "general_prevention": ["Drinking plenty of water", "Wiping from front to back", "Urinating soon after sexual intercourse"],
+    "common_diagnostic_tests": ["Urinalysis (dipstick for nitrites and leukocyte esterase)", "Urine microscopy", "Urine culture and sensitivity"],
+    "general_treatment": ["Appropriate course of doctor-prescribed targeted antibiotics and increased fluid intake"],
+    "warning_signs": ["High fever with shaking chills", "Flank or lower back pain (indicating possible kidney involvement / pyelonephritis)", "Nausea and vomiting"],
+    "when_to_seek_doctor": "Medical evaluation is necessary to confirm infection and obtain appropriate antibiotic treatment.",
+    "faqs": [
+      {"q": "Can a UTI go away without antibiotics?", "a": "While mild symptoms occasionally resolve, medical treatment is advised to prevent ascending infection to the kidneys."}
+    ],
+    "related_medical_terms": ["WBC", "Creatinine", "Antibiotic", "Infection"],
+    "source": "CDC Urinary Tract Infection Overview",
+    "source_url": "https://www.cdc.gov/urinary-tract-infection/",
+    "last_updated": "2026-01-14"
+  },
+  {
+    "id": "tuberculosis",
+    "name": "Tuberculosis",
+    "simple_definition": "A serious bacterial infection mainly affecting the lungs, marked by chronic cough, night sweats, and weight loss.",
+    "medical_definition": "A potentially fatal contagious airborne bacterial infection caused by Mycobacterium tuberculosis.",
+    "common_symptoms": ["Cough lasting 3 weeks or longer", "Coughing up blood or sputum", "Night sweats", "Unexplained weight loss", "Fatigue", "Low-grade persistent fever"],
+    "possible_causes": ["Mycobacterium tuberculosis transmission through airborne droplets"],
+    "risk_factors": ["Weakened immune system (HIV, diabetes, malnutrition)", "Close contact with active TB cases", "Living in overcrowded settings"],
+    "general_prevention": ["BCG vaccination in endemic regions", "Early case detection and treatment", "Proper ventilation and respiratory isolation"],
+    "common_diagnostic_tests": ["Sputum acid-fast bacilli (AFB) smear and culture", "Molecular GeneXpert MTB/RIF test", "Chest X-ray", "Tuberculin skin test (Mantoux)"],
+    "general_treatment": ["Directly Observed Therapy (DOTS) with a standardized multi-drug antibiotic regimen taken consistently for 6 months or longer under strict medical supervision"],
+    "warning_signs": ["Massive hemoptysis (coughing large amounts of blood)", "Severe breathlessness", "Extreme emaciation"],
+    "when_to_seek_doctor": "Any cough lasting more than 2-3 weeks or coughing up blood requires prompt medical evaluation.",
+    "faqs": [
+      {"q": "Is TB completely curable?", "a": "Yes, if the full course of prescribed anti-TB medications is taken strictly as directed without interruption."}
+    ],
+    "related_medical_terms": ["Chronic", "ESR", "Infection", "Antibiotic"],
+    "source": "World Health Organization (WHO) Global Tuberculosis Report",
+    "source_url": "https://www.who.int/teams/global-tuberculosis-programme",
+    "last_updated": "2026-02-02"
+  },
+  {
+    "id": "anemia",
+    "name": "Anemia",
+    "simple_definition": "A condition in which the blood lacks enough healthy red blood cells or hemoglobin to carry adequate oxygen to tissues.",
+    "medical_definition": "A clinical state characterized by a quantitative deficiency in circulating hemoglobin concentration or red blood cell mass.",
+    "common_symptoms": ["Fatigue and exhaustion", "Pale or yellowish skin", "Dizziness or lightheadedness", "Cold hands and feet", "Shortness of breath on mild exertion"],
+    "possible_causes": ["Iron deficiency", "Vitamin B12 or folate deficiency", "Chronic blood loss", "Hemolysis or bone marrow disorders"],
+    "risk_factors": ["Inadequate dietary iron", "Heavy menstrual periods", "Pregnancy", "Gastrointestinal bleeding", "Chronic kidney disease"],
+    "general_prevention": ["Iron-rich diet (spinach, legumes, meat, fortified cereals)", "Vitamin C to enhance iron absorption", "Routine prenatal iron supplementation"],
+    "common_diagnostic_tests": ["Complete Blood Count (CBC - Hemoglobin, RBC, Hematocrit)", "Serum ferritin and iron studies", "Vitamin B12 level"],
+    "general_treatment": ["Identification and treatment of the underlying cause, dietary enhancement, and physician-prescribed iron or vitamin supplementation"],
+    "warning_signs": ["Chest pain", "Fainting or severe palpitations", "Extreme pallor accompanied by shortness of breath"],
+    "when_to_seek_doctor": "Medical evaluation is necessary to investigate the specific cause of anemia rather than self-treating with supplements.",
+    "faqs": [
+      {"q": "Why is hemoglobin important?", "a": "Hemoglobin is the iron-containing protein in red blood cells that transports oxygen throughout the entire body."}
+    ],
+    "related_medical_terms": ["Hemoglobin", "RBC", "Hematocrit", "Fatigue"],
+    "source": "World Health Organization (WHO) Anaemia Factsheet",
+    "source_url": "https://www.who.int/news-room/fact-sheets/detail/anaemia",
+    "last_updated": "2026-01-28"
+  },
+  {
+    "id": "sinusitis",
+    "name": "Sinusitis",
+    "simple_definition": "Inflammation or swelling of the tissue lining the sinuses around the forehead, cheeks, and eyes.",
+    "medical_definition": "Rhinosinusitis; inflammation of the paranasal sinuses and nasal cavity mucosa, commonly secondary to viral or bacterial infection or allergy.",
+    "common_symptoms": ["Facial pressure or pain around eyes and cheeks", "Stuffy or blocked nose", "Thick discolored nasal discharge", "Headache", "Reduced sense of smell"],
+    "possible_causes": ["Viral upper respiratory infection", "Secondary bacterial infection", "Allergic rhinitis", "Nasal polyps"],
+    "risk_factors": ["Pre-existing allergic rhinitis", "Deviated nasal septum", "Frequent upper respiratory infections"],
+    "general_prevention": ["Managing allergies", "Using saline nasal rinses", "Avoiding cigarette smoke and environmental irritants"],
+    "common_diagnostic_tests": ["Clinical examination of nasal passages", "Nasal endoscopy or CT scan if chronic or recurrent"],
+    "general_treatment": ["Saline nasal irrigation, warm compresses, physician-recommended nasal steroid sprays or decongestants, antibiotics only if bacterial infection is confirmed"],
+    "warning_signs": ["Swelling or redness around the eyes", "Severe continuous forehead headache", "High fever with neck stiffness"],
+    "when_to_seek_doctor": "Consult a healthcare provider if symptoms last more than 10 days without improvement or worsen after initial recovery.",
+    "faqs": [
+      {"q": "Are all sinus infections bacterial?", "a": "No, the vast majority begin as viral infections following a cold and resolve without antibiotics."}
+    ],
+    "related_medical_terms": ["Acute", "Chronic", "Allergy", "Inflammation"],
+    "source": "American Academy of Otolaryngology-Head and Neck Surgery (AAO-HNS)",
+    "source_url": "https://www.enthealth.org/conditions/sinusitis/",
+    "last_updated": "2026-01-16"
+  },
+  {
+    "id": "food-poisoning",
+    "name": "Food poisoning",
+    "simple_definition": "An illness caused by eating food or drinking water contaminated with harmful bacteria, viruses, or toxins.",
+    "medical_definition": "Acute gastroenteritis resulting from the ingestion of food contaminated with infectious organisms (e.g. Salmonella, Campylobacter, Norovirus) or microbial toxins.",
+    "common_symptoms": ["Nausea", "Vomiting", "Watery or bloody diarrhea", "Abdominal cramps", "Mild fever", "Dehydration"],
+    "possible_causes": ["Norovirus", "Salmonella", "Staphylococcus aureus toxin", "E. coli", "Campylobacter"],
+    "risk_factors": ["Consuming undercooked meat, unpasteurized milk, or improperly stored foods", "Poor food handling hygiene"],
+    "general_prevention": ["Thorough cooking of meats", "Prompt refrigeration of perishables", "Washing hands, cutting boards, and utensils after handling raw meat"],
+    "common_diagnostic_tests": ["Clinical history", "Stool culture or multiplex gastrointestinal pathogen PCR in severe cases"],
+    "general_treatment": ["Aggressive oral rehydration solutions (ORS) to replace fluids and electrolytes, gradual light diet, and medical care if severe"],
+    "warning_signs": ["Inability to keep liquids down for 24 hours", "Signs of severe dehydration (dry mouth, sunken eyes, minimal urination)", "High fever above 102°F", "Bloody stools"],
+    "when_to_seek_doctor": "Prompt medical attention is required for severe dehydration, bloody diarrhea, or symptoms in infants and the elderly.",
+    "faqs": [
+      {"q": "What is the most important treatment for food poisoning?", "a": "Fluid and electrolyte replacement (oral rehydration) to prevent dehydration from vomiting and diarrhea."}
+    ],
+    "related_medical_terms": ["Acute", "Infection", "Vital signs", "Dehydration"],
+    "source": "CDC Foodborne Illness Division",
+    "source_url": "https://www.cdc.gov/foodsafety/foodborne-germs.html",
+    "last_updated": "2026-01-20"
+  },
+  {
+    "id": "viral-fever",
+    "name": "Viral fever",
+    "simple_definition": "An elevated body temperature caused by any number of underlying viral infections, often accompanied by generalized body aches.",
+    "medical_definition": "An acute, febrile systemic state mediated by endogenously released pyrogens responding to viral replication within the host.",
+    "common_symptoms": ["Fever", "Generalized muscle and body aches", "Headache", "Fatigue", "Loss of appetite", "Mild throat irritation"],
+    "possible_causes": ["Diverse seasonal respiratory, enteroviral, or systemic viruses"],
+    "risk_factors": ["Seasonal weather shifts", "Close exposure to sick individuals", "Fatigue and weakened immunity"],
+    "general_prevention": ["Frequent hand hygiene", "Avoiding crowded enclosed spaces during outbreaks", "Healthy balanced diet and hydration"],
+    "common_diagnostic_tests": ["Clinical evaluation", "Complete Blood Count (CBC) to assess white blood cell pattern", "Specific viral antigen tests if indicated"],
+    "general_treatment": ["Rest, abundant oral fluid intake, lukewarm sponging, and physician-advised antipyretic medication (e.g., paracetamol)"],
+    "warning_signs": ["Fever lasting beyond 3-4 days", "Appearance of unexplained rash or petechiae", "Stiff neck, photophobia, or altered alertness"],
+    "when_to_seek_doctor": "Consult a physician if fever remains elevated beyond 72 hours, does not respond to medication, or warning signs appear.",
+    "faqs": [
+      {"q": "Should antibiotics be taken for viral fever?", "a": "No, antibiotics have no efficacy against viruses and should only be taken when prescribed by a doctor for confirmed bacterial complications."}
+    ],
+    "related_medical_terms": ["WBC", "CBC", "Acute", "Vital signs"],
+    "source": "World Health Organization (WHO) Clinical Guidelines",
+    "source_url": "https://www.who.int/news-room/fact-sheets",
+    "last_updated": "2026-01-22"
+  },
+  {
+    "id": "chickenpox",
+    "name": "Chickenpox",
+    "simple_definition": "A highly contagious viral infection that causes an itchy, blister-like rash all over the body.",
+    "medical_definition": "Varicella; an acute, highly contagious viral disease caused by the varicella-zoster virus (VZV), characterized by crops of pruritic vesicular lesions.",
+    "common_symptoms": ["Itchy skin rash turning into fluid-filled blisters", "Fever", "Tiredness and malaise", "Loss of appetite", "Headache"],
+    "possible_causes": ["Varicella-zoster virus (VZV) airborne transmission or direct contact with blister fluid"],
+    "risk_factors": ["Lack of vaccination", "Not having had chickenpox previously", "Immunocompromised states"],
+    "general_prevention": ["Varicella vaccination (two doses provide strong protection)", "Isolating infected individuals until all blisters have scabbed over"],
+    "common_diagnostic_tests": ["Clinical visual diagnosis", "VZV PCR from lesion fluid if confirmation is required"],
+    "general_treatment": ["Supportive care: calamine lotion, cool baths, trimmed fingernails to prevent secondary skin infection, antipyretics (avoiding aspirin in children due to Reye's syndrome risk)"],
+    "warning_signs": ["Secondary bacterial infection of blisters (red, hot, swollen skin)", "Shortness of breath or cough", "Extreme drowsiness or neurological symptoms"],
+    "when_to_seek_doctor": "Contact a doctor for pregnant women, newborns, or individuals with weakened immunity, or if lesions appear infected.",
+    "faqs": [
+      {"q": "Can someone get chickenpox more than once?", "a": "Most people develop lifelong immunity, though the virus remains dormant in nerve tissues and can reactivate years later as shingles (herpes zoster)."}
+    ],
+    "related_medical_terms": ["Lesion", "Acute", "Infection", "Contraindication"],
+    "source": "CDC Varicella (Chickenpox) Guidelines",
+    "source_url": "https://www.cdc.gov/chickenpox/index.html",
+    "last_updated": "2026-01-19"
+  }
+]
